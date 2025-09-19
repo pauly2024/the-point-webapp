@@ -1,0 +1,5 @@
+{
+  "name": "The Point Lounge Loyalty",
+  "description": "A customer loyalty and rewards web application for The Point Lounge. Customers can accumulate points through purchases and redeem them for free products. Administrators can manage customers, menus, and offers.",
+  "requestFramePermissions": []
+}
