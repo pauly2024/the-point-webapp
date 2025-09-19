@@ -1,0 +1,21 @@
+/* --- NUEVOS ESTILOS PARA EL LOGO EN EL HEADER --- */
+
+/* Asegura que el logo tenga un tamaño adecuado */
+.header .logo .header-logo {
+    height: 4.5rem; /* Ajusta esto si quieres un logo más grande o pequeño */
+    width: auto; /* Mantiene la proporción de la imagen */
+    vertical-align: middle; /* Ayuda a alinear con cualquier texto si estuviera presente */
+}
+
+/* Opcional: Oculta el icono de la hamburguesa que estaba originalmente al lado del texto "The Point" */
+/* Si no quieres que aparezca junto a tu nuevo logo, este estilo lo ocultará */
+.header .logo .fas.fa-bars {
+    display: none;
+}
+
+/* Ajusta el padding del header si el logo lo hace ver muy apretado */
+.header {
+    padding: 1.5rem 7%; /* Aumenté un poco el padding vertical para dar más espacio */
+}
+
+/* --- FIN DE NUEVOS ESTILOS --- */
