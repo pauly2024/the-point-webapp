@@ -1,48 +1,21 @@
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Point Lounge</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Kalam:wght@700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'brand-red': '#E52421',
-              'brand-dark': '#1a1a1a',
-              'brand-light': '#F5F5F5',
-            },
-            fontFamily: {
-              'sans': ['Montserrat', 'sans-serif'],
-              'display': ['Kalam', 'cursive'],
-            },
-            backgroundImage: {
-              'dark-wood': "url('https://www.transparenttextures.com/patterns/dark-wood.png')",
-            }
-          }
-        }
-      }
-    </script>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.1.1/",
-    "react": "https://aistudiocdn.com/react@^19.1.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
-    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.1",
-    "qrcode.react": "https://aistudiocdn.com/qrcode.react@^4.2.0"
-  }
-}
-</script>
-</head>
-  <body class="bg-brand-dark bg-dark-wood">
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
-  </body>
-</html>
+    <header class="header">
+        <a href="#home" class="logo">
+            <img src="img/the_point_logo.png" alt="The Point Logo" class="header-logo">
+            <!-- IMPORTANTE: Asegúrate que 'the_point_logo.png' es el nombre exacto de tu archivo y que está en la carpeta 'img' -->
+            <!-- Si tu logo es SVG, cambia '.png' a '.svg' -->
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="info-btn" class="fas fa-info-circle"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
